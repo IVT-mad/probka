@@ -1,0 +1,30 @@
+.ItemProduct{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.checkbox {
+    display: flex;
+    height: 20px;
+}
+
+.Display-inline {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button1{
+     height: 40px;
+}
+
+.Button2 {
+    height: 40px;
+    rotate: 180deg;
+}
+
+.moreorless {
+    display: flex;
+    justify-content: center;
+}

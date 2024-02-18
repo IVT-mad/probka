@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */ /* Adjust the gap between items as needed */
+    padding-bottom: 15vh;
+}
+
+.photo, .Logo, .Basket {
+  grid-column: span 1;
+  height: 50px;
+  justify-self: center;
+}
+
+.Meal1{
+    grid-column: span 3;
+}
+
+.DelTime{
+    height: 60px;
+    grid-column: span 3;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+}
+.Car{
+    margin: auto 0;
+    grid-column: 1;
+    height:80%;
+}
+
+.ProductChoose {
+    grid-column: span 3;
+}
+
+.Button2change {
+    margin: auto 0;
+    height: 40px;
+}

@@ -1,0 +1,17 @@
+.myElement{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 35vw;
+    height: 8vh;
+}
+
+.myElement h1:not(.vivoddeneg){
+    cursor: pointer;
+}
+
+.battn{
+    background-color: rgb(255, 255, 0);
+    border-radius: 16px;
+    margin: 0 20vw;
+    height: 4vh;
+}

@@ -1,0 +1,21 @@
+.Bruchetta {
+    grid-column: span 3;
+    width: 100%; /* Full width for the fourth item in a new row */
+}
+
+.trynnacook{
+    grid-column: span 3;
+}
+
+.Bruschettatxt {
+    margin: 10px;
+}
+
+.Text {
+    display: grid;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
